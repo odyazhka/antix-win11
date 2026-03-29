@@ -6,6 +6,7 @@
 Установить иконки:
 
 ``` sudo apt install lxappearance papirus-icon-theme fonts-inter
-sudo lxappearance ```
+sudo lxappearance
+```
 
 Установитиь шрифт Inter и тему Win11
