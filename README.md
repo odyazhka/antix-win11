@@ -1,13 +1,15 @@
 # gtk2
 
 Установить нужные пакеты:
-``` sudo apt install icewm icewm-common zzzfm arc tint2 leafpad ```
+``` sudo apt install xorg xinit icewm icewm-common zzzfm arc tint2 tint2conf jgmenu leafpad pulseaudio pavucontrol-qt cbatticon acpi ```
 
 
 
 Поместить файл .gtlrc в *~/*
 
 Поместить файл gtk.css в *~/.config/gtk-3.0/*
+
+Поместить папку jgmenu в *~/.config/*
 
 Скачать gtk тему отсюда: https://www.gnome-look.org/p/2278411
 
@@ -28,12 +30,11 @@ sudo lxappearance
 
 #### Замена иконок звука и громкости
 
-Скачать файлы backlight-brightness.png и emixer.png. Переместить их в домашнюю директорию и заменить командами:
+Скачать файлы backlight-brightness.png, audio.png и pavucontrol-qt.desktop. Переместить их в домашнюю директорию и заменить командами:
 
 ```
-sudo rm /usr/share/icons/hicolor/128x128/apps/emixer.png
-sudo cp ~/emixer.png /usr/share/icons/hicolor/128x128/apps/
+sudo cp ~/audio.png /usr/share/applications/
+sudo cp ~/pavucontrol-qt.desktop /usr/share/applications/
 sudo rm /usr/share/pixmaps/backlight-brightness.png
 sudo cp  ~/backlight-brightness.png /usr/share/pixmaps/
 ```
-
