@@ -6,4 +6,3 @@ Icon=/usr/share/applications/audio.png
 StartupNotify=true
 Type=Application
 Categories=Qt;AudioVideo;Audio;Settings;DesktopSettings;
-Name=Громкость
