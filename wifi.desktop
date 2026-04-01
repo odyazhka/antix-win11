@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Name=Wi-Fi
+Exec=xterm ~/wifi.sh
+Icon=/usr/share/applications/wifi.png
+Categories=System;Monitor;ConsoleOnly;
+Keywords=system;process;task
