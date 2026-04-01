@@ -7,7 +7,7 @@
 
 #### 1. Установить нужные пакеты:
 
-``` sudo apt install xorg xinit icewm icewm-common zzzfm ark tint2 jgmenu leafpad pulseaudio pavucontrol-qt acpi ```
+``` sudo apt install xorg xinit icewm icewm-common zzzfm ark tint2 jgmenu leafpad pulseaudio pavucontrol-qt acpi xterm ```
 
 #### 2. Добавить конфиги:
 
