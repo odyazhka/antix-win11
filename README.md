@@ -30,10 +30,15 @@
 
 Файл startup переместить в *~/.icewm/*
 
+Файл keys переместить в *~/.icewm/*
+
 Папку IceW11 переместить в *~/.icewm/themes/*
 
 Сделать файл автозапуска исполняемым:
-``` sudo chmod +x ~/.icewm/startup ```
+```
+sudo chmod +x ~/.icewm/startup
+sudo chmod +x ~/.icewm/keys
+```
 
 Нажать ПКМ > Настройки > Темы > IceW11
 
