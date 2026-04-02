@@ -22,3 +22,5 @@
 @text,,9,284,142,35,2,left,top,#000000 100,#000000 0,Настройка
 @rect,^filter(#System #Emulator #FileManager #TerminalEmulator #Filesystem #Monitor ),4,319,142,35,2,left,top,#000000 0,#000000 0,
 @text,,9,319,142,35,2,left,top,#000000 100,#000000 0,Система
+@rect,^pipe(~/logout.sh),4,470,142,35,2,left,top,#000000 0,#000000 0; ^quit(),
+@text,,9,470,142,35,2,left,top,#000000 100,#000000 0,Выключение
