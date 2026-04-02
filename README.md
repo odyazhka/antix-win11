@@ -15,7 +15,7 @@
 
 #### 1. Установить нужные пакеты:
 
-``` sudo apt install xorg xinit icewm icewm-common zzzfm ark tint2 jgmenu leafpad qasmixer acpi xterm iwd ```
+``` sudo apt install xorg xinit icewm icewm-common zzzfm ark tint2 jgmenu leafpad qasmixer acpi xterm iwd yad ```
 
 #### 2. Создать файл .Xinitrc
 
