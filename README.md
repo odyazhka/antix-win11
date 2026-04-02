@@ -7,7 +7,7 @@
 
 #### 1. Установить нужные пакеты:
 
-``` sudo apt install xorg xinit icewm icewm-common zzzfm ark tint2 jgmenu leafpad pulseaudio pavucontrol-qt acpi xterm iwd ```
+``` sudo apt install xorg xinit icewm icewm-common zzzfm ark tint2 jgmenu leafpad qasmixer acpi xterm iwd ```
 
 #### 2. Создать файл .Xinitrc
 
@@ -48,7 +48,6 @@ sudo chmod +x ~/wifi.sh
 
 ```
 
-Нажать ПКМ > Настройки > Темы > IceW11
 
 #### 4. Установление gtk-темы
 
@@ -58,31 +57,39 @@ sudo chmod +x ~/wifi.sh
 sudo apt install papirus-icon-theme fonts-inter
 ```
 
-Установитиь шрифт Inter и тему IceW11
+Нажать ПКМ > Настройки > Темы > IceW11
 
-#### 5. Замена иконок звука и громкости
+Перезапустить IceWM для просмотра изменений:
+
+```icewm --restart```
+
+#### 5. Добавление иконок громкости, яркости и Wi-Fi
 
 Добавить ярлыки и иконки командами:
 
 ```
 sudo mv ~/audio.png /usr/share/applications/
-sudo mv ~/pavucontrol-qt.desktop /usr/share/applications/
+sudo rm /usr/share/applications/qasmixer.desktop
+sudo mv ~/qasmixer.desktop /usr/share/applications/
 sudo rm /usr/share/pixmaps/backlight-brightness.png
 sudo mv  ~/backlight-brightness.png /usr/share/pixmaps/
 sudo mv  ~/antix.png /usr/share/applications/
 sudo mv  ~/wifi.png /usr/share/applications/
 sudo mv  ~/wifi.desktop /usr/share/applications/
+
 ```
+Перезапустить tint2:
+
+```killall tint2 && tint2 & disown```
+
 
 #### 6. Установка терминала xterm:
 
-Установить xterm если ещё нет
-
-
-Применить конфиг командой
+Применить конфиг для xterm командой
 
 ```xrdb -merge ~/.Xresurces ```
 
 Удалить UXTerm и создать символическую ссылку на него:
 
 ``` sudo rm /usr/bin/uxterm && sudo ln -s /usr/bin/xterm /usr/bin/uxterm ```
+
