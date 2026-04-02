@@ -39,3 +39,5 @@ style "colored_menu" = "blue_theme"
 
 widget_class "*Menu*" style "colored_menu"
 widget_class "*MenuBar*" style "colored_menu"
+gtk-font-name=Inter 10
+gtk-font-name="Inter 10"
