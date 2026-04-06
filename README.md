@@ -19,7 +19,6 @@
 
 #### 2. Создать файл .Xinitrc
 
-
 ``` sudo nano .Xinitrc ```
 
 И написать там:
@@ -59,20 +58,19 @@ sudo chmod +x ~/wifi.sh
 
 ```
 
+Нажать ПКМ > Настройки > Темы > IceW11
 
-#### 4. Установление gtk-темы
-
-Установить иконки и шрифты:
+#### 4. Установить иконки и шрифты:
 
 ```
 sudo apt install papirus-icon-theme fonts-inter ttf-mscorefonts-installer fonts-liberation fonts-dejavu fontconfig fonts-noto-core fonts-noto-ui-core fonts-noto-extra fonts-noto-cjk  fonts-noto-color-emoji
 ```
 
-Нажать ПКМ > Настройки > Темы > IceW11
+Очистить кэш:
 
-Перезапустить IceWM для просмотра изменений:
-
-```icewm --restart```
+```
+sudo fc-cache -fv
+```
 
 #### 5. Добавление иконок громкости, яркости и Wi-Fi
 
