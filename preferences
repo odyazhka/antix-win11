@@ -1,13 +1,13 @@
 #!/bin/bash
 
+# Не показывать встроенный TaskBar
+ShowTaskBar=0
+
 # Шрифт заголовков окон
 TitleFontNameXft="Inter:size=12"
 
 # Шрифт главного меню (твое jgmenu может брать отсюда)
 MenuFontNameXft="Inter:size=10"
-
-# Шрифт на панели задач (кнопки окон)
-TaskBarFontNameXft="Inter:size=10"
 
 # Шрифт в области уведомлений (часы и т.д.)
 StatusFontNameXft="Inter:size=10"
