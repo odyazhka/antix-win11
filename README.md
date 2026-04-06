@@ -65,7 +65,7 @@ sudo chmod +x ~/wifi.sh
 Установить иконки и шрифты:
 
 ```
-sudo apt install papirus-icon-theme fonts-inter
+sudo apt install papirus-icon-theme fonts-inter ttf-mscorefonts-installer fonts-liberation fonts-dejavu fontconfig fonts-noto-core fonts-noto-ui-core fonts-noto-extra fonts-noto-cjk  fonts-noto-color-emoji
 ```
 
 Нажать ПКМ > Настройки > Темы > IceW11
