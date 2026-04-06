@@ -39,9 +39,12 @@
 Папку IceW11 переместить в *~/.icewm/themes/*
 
 ```
-sudo mv ~/.gtkrc-2.0 ~/.config/
+sudo mkdir -p ~/.icewm/themes
+sudo mkdir -p ~/.config/tint2
+sudo mv ~/jgmenu  ~/.config/
 sudo mv ~/startup ~/.icewm/
 sudo mv ~/keys ~/.icewm/
+sudo mv ~/preferences ~/.icewm/
 sudo mv ~/IceW11 ~/.icewm/themes/
 sudo mv ~/tint2rc  ~/.config/tint2/
 ```
