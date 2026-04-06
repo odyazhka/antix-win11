@@ -66,12 +66,6 @@ sudo chmod +x ~/wifi.sh
 sudo apt install papirus-icon-theme fonts-inter ttf-mscorefonts-installer fonts-liberation fonts-dejavu fontconfig fonts-noto-core fonts-noto-ui-core fonts-noto-extra fonts-noto-cjk  fonts-noto-color-emoji
 ```
 
-Очистить кэш:
-
-```
-sudo fc-cache -fv
-```
-
 #### 5. Добавление иконок громкости, яркости и Wi-Fi
 
 Добавить ярлыки и иконки командами:
