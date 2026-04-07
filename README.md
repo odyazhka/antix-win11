@@ -13,9 +13,9 @@
 
 ## Установка
 
-#### 1. Установить IceWM:
+#### 1. Установить IceWM и базовых утилит:
 
-``` sudo apt install xorg xinit icewm icewm-common ark zzzfm ```
+``` sudo apt install xorg xinit icewm icewm-common ark zzzfm firefox-esr ```
 
 #### 2. Создать файл .Xinitrc
 
@@ -27,10 +27,9 @@
 
 #### 3. Скачать архив и распаковать его
 
-#### 4. Запустить скрипт install.sh
+#### 4. Зацти в папку репрзитория и запустить скрипт install.sh
 
 ```
 cd antix-main
-sudo chmod +x install.sh
 bash install.sh
 ```
