@@ -15,7 +15,7 @@
 
 #### 1. Установить IceWM:
 
-``` sudo apt install xorg xinit icewm icewm-common ```
+``` sudo apt install xorg xinit icewm icewm-common ark ```
 
 #### 2. Создать файл .Xinitrc
 
@@ -25,7 +25,9 @@
 
 ``` icewm-session ```
 
-#### 3. Запустить скрипт install.sh
+#### 3. Скачать архив и распаковать его
+
+#### 4. Запустить скрипт install.sh
 
 ```
 sudo chmod +x ~/install.sh
