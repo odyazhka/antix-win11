@@ -30,6 +30,7 @@
 #### 4. Запустить скрипт install.sh
 
 ```
-sudo chmod +x ~/install.sh
-~/install.sh
+cd antix-main
+sudo chmod +x install.sh
+bash install.sh
 ```
