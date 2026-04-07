@@ -35,11 +35,6 @@ XTerm*allowMouseOps:            false
 XTerm*allowTitleOps:            false
 XTerm*allowFontOps:             false
 
-! Mouse cursor configuration, I prefer to keep it simple.
-XTerm*pointerColor:             white
-XTerm*pointerColorBackground:   black
-XTerm*pointerShape:             left_ptr
-
 ! Only select text, not empty space around it.
 XTerm*highlightSelection:       true
 
@@ -100,15 +95,15 @@ XTerm*title:                    Terminal
 XTerm*iconHint:                 /home/taviso/.icons/computer_x11.xpm
 
 ! Terminal Colors
-XTerm*vt100.background:     #212121
-XTerm*vt100.foreground:     #80FF80
+XTerm*vt100.background:     #f5f5f5
+XTerm*vt100.foreground:     #000000
 XTerm*cursorColor:          #ffffff
 
 ! I like bold items to be in bright white.
 XTerm*veryBoldColors:       4
 XTerm*colorBDMode:          true
-XTerm*colorBD:              #ffffff
-XTerm*colorRV:              #ffffff
+XTerm*colorBD:              #000000
+XTerm*colorRV:              #000000
 
 ! I can see a small line between box characters, this fixes it.
 XTerm*forceBoxChars:        true
