@@ -13,7 +13,7 @@ sudo mv tint2rc  $HOME/.config/tint2/
 sudo mv .gtkrc-2.0  $HOME/.config/tint2/
 sudo mv logout.sh  $HOME/.config/tint2/
 sudo mv wifi.sh  $HOME/.config/tint2/
-sudo mv .Xresources  $HOME/.config/tint2/
+sudo mv .Xresources  $HOME/
 sudo chmod +x $HOME/.icewm/startup
 sudo chmod +x $HOME/.icewm/keys
 sudo chmod +x $HOME/.icewm/preferences
