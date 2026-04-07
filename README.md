@@ -46,6 +46,7 @@ sudo mkdir -p ~/.icewm/themes
 sudo mkdir -p ~/.config/tint2
 sudo mv ~/jgmenu  ~/.config/
 sudo mv ~/startup ~/.icewm/
+sudo mv ~/theme ~/.icewm/
 sudo mv ~/keys ~/.icewm/
 sudo mv ~/preferences ~/.icewm/
 sudo mv ~/IceW11 ~/.icewm/themes/
@@ -57,12 +58,11 @@ sudo mv ~/tint2rc  ~/.config/tint2/
 sudo chmod +x ~/.icewm/startup
 sudo chmod +x ~/.icewm/keys
 sudo chmod +x ~/.icewm/preferences
+sudo chmod +x ~/.icewm/theme
 sudo chmod +x ~/logout.sh
 sudo chmod +x ~/wifi.sh
 
 ```
-
-Нажать ПКМ > Настройки > Темы > IceW11
 
 #### 4. Установить шрифты:
 
