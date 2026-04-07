@@ -21,7 +21,7 @@ sudo chmod +x $HOME/.icewm/theme
 sudo chmod +x $HOME/logout.sh
 sudo chmod +x $HOME/wifi.sh
 sudo chmod +x $HOME/.gtkrc-2.0
-sudo chmod +x $HOME/.Xresurces
+sudo chmod +x $HOME/.Xresources
 sudo mv audio.png /usr/share/applications/
 sudo rm /usr/share/applications/qasmixer.desktop
 sudo mv qasmixer.desktop /usr/share/applications/
@@ -31,7 +31,7 @@ sudo mv antix.png /usr/share/applications/
 sudo mv wifi.png /usr/share/applications/
 sudo mv wifi.desktop /usr/share/applications/
 sudo mv poisk.png /usr/share/applications/
-xrdb -merge $HOME/.Xresurces
+xrdb -merge $HOME/.Xresources
 sudo rm /usr/bin/uxterm && sudo ln -s /usr/bin/xterm /usr/bin/uxterm
 sudo rm /usr/share/applications/antiX-cli-cc.desktop
 sudo mv antiX-cli-cc.desktop /usr/share/applications/
