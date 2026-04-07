@@ -15,7 +15,7 @@
 
 #### 1. Установить IceWM:
 
-``` sudo apt install xorg xinit icewm icewm-common ark ```
+``` sudo apt install xorg xinit icewm icewm-common ark zzzfm ```
 
 #### 2. Создать файл .Xinitrc
 
