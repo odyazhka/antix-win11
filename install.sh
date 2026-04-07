@@ -10,9 +10,9 @@ sudo mv keys $HOME/.icewm/
 sudo mv preferences $HOME/.icewm/
 sudo mv IceW11 $HOME/.icewm/themes/
 sudo mv tint2rc  $HOME/.config/tint2/
-sudo mv .gtkrc-2.0  $HOME/.config/tint2/
-sudo mv logout.sh  $HOME/.config/tint2/
-sudo mv wifi.sh  $HOME/.config/tint2/
+sudo mv .gtkrc-2.0  $HOME/
+sudo mv logout.sh  $HOME/
+sudo mv wifi.sh  $HOME/
 sudo mv .Xresources  $HOME/
 sudo chmod +x $HOME/.icewm/startup
 sudo chmod +x $HOME/.icewm/keys
