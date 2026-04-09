@@ -3,6 +3,7 @@ sudo apt install -y tint2 jgmenu leafpad qasmixer acpi xterm iwd yad fonts-inter
 sudo apt purge -y ceni
 sudo mkdir -p $HOME/.icewm/themes
 sudo mkdir -p $HOME/.config/tint2
+sudo mkdir -p $HOME/.config/gtk-3.0
 sudo mv jgmenu  $HOME/.config/
 sudo mv startup $HOME/.icewm/
 sudo mv theme $HOME/.icewm/
@@ -10,6 +11,7 @@ sudo mv keys $HOME/.icewm/
 sudo mv preferences $HOME/.icewm/
 sudo mv IceW11 $HOME/.icewm/themes/
 sudo mv tint2rc  $HOME/.config/tint2/
+sudo mv gtk.css  $HOME/.config/gtk-3.0/
 sudo mv .gtkrc-2.0  $HOME/
 sudo mv logout.sh  $HOME/
 sudo mv wifi.sh  $HOME/
