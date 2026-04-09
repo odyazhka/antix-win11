@@ -17,13 +17,8 @@ sudo mv logout.sh  $HOME/
 sudo mv wifi.sh  $HOME/
 sudo mv .Xresources  $HOME/
 sudo chmod +x $HOME/.icewm/startup
-sudo chmod +x $HOME/.icewm/keys
-sudo chmod +x $HOME/.icewm/preferences
-sudo chmod +x $HOME/.icewm/theme
 sudo chmod +x $HOME/logout.sh
 sudo chmod +x $HOME/wifi.sh
-sudo chmod +x $HOME/.gtkrc-2.0
-sudo chmod +x $HOME/.Xresources
 sudo mv audio.png /usr/share/applications/
 sudo rm /usr/share/applications/qasmixer.desktop
 sudo mv qasmixer.desktop /usr/share/applications/
